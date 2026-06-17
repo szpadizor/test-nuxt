@@ -26,6 +26,6 @@ class InvoiceService
 
     public static function destroy(Invoice $invoice)
     {
-        $invoice->destroy($invoice);
+        $invoice->delete();
     }
 }

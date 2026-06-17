@@ -32,7 +32,7 @@ class InvoiceController extends Controller
 
     public function destroy(Invoice $invoice)
     {
-
+        InvoiceService::destroy($invoice);
         return response()->json(200);
     }
 }
