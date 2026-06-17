@@ -1,7 +1,7 @@
 1. Як ти структурував frontend і backend?
 Система розділена на API backend і frontend як клієнт що працює окремо. 
                
-                Бекенд знаходиться у backend розділений на шари:
+ Бекенд знаходиться у backend розділений на шари:
 - бізнеслогіка сервіс Services/InvoiceService.php
 - валідація Http/Requests/StoreInvoiceRequest.php
 - контролер займається виключно прийняттям запиту диспетчеризацією його на сервіс і повернення відповіді
@@ -9,7 +9,7 @@
   
 - Використаний стиль REST API для взаємодії з бекендом (api.php)
 
-                       Фронтенд складається з сторінок
+                         Фронтенд складається з сторінок
 - список index.vue
 - форма створення create.vue
 - форма редагування /invoices/[id].vue
@@ -35,11 +35,11 @@
                                      ЗАПУСК ПРОЄКТУ
 
 
-git clone https://github.com/szpadizor/test-nuxt.git
-cd test-nuxt
-docker-compose up -d --build
-docker-compose exec laravel php artisan migrate
-перейти на http://localhost:3000
+git clone https://github.com/szpadizor/test-nuxt.git <br>
+cd test-nuxt <br>
+docker-compose up -d --build <br>
+docker-compose exec laravel php artisan migrate <br>
+перейти на http://localhost:3000 <br>
 
 
 
