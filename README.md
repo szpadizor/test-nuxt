@@ -14,9 +14,9 @@
 - форма створення create.vue
 - форма редагування /invoices/[id].vue
 
- Запити відправляються через мережу Docker за допомогою проксі  
- Створено сервіс який відправляє запити frontend/app/composables/requestApi.ts  
- Розрахунок gross аmount  винесено в утиліту (frontend/app/composables/grossCalc.ts) для повторного використання.  
+ Запити відправляються через мережу Docker за допомогою проксі.    
+ Створено сервіс який відправляє запити frontend/app/composables/requestApi.ts.    
+ Розрахунок gross аmount  винесено в утиліту (frontend/app/composables/grossCalc.ts) для повторного використання.    
 
 2. Які компроміси ти зробив і чому? 3. Що б ти покращив у production-версії?
 
