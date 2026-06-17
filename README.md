@@ -37,7 +37,8 @@
 git clone https://github.com/szpadizor/test-nuxt.git
 cd test-nuxt
 docker-compose up -d --build
-docker exec  laravel  php artisan key:generate
-docker exec  laravel  php artisan migrate
+docker-compose exec laravel php artisan migrate
+перейти на http://localhost:3000
+
 
 
