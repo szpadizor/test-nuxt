@@ -29,5 +29,16 @@
 4. Які UX edge cases ти врахував?
 - у продукті я би зробив щось типу toast повідомлень з результатами запитів а також якщо валідація не пройшла успішно
 - додав би loader при відправці запиту щоб не було дабл кліків і тп.
-- 
+
+
+                                     ЗАПУСК ПРОЄКТУ
+
+
+git clone https://github.com/szpadizor/test-nuxt.git
+cd <project>
+docker-compose up -d --build
+docker exec -it laravel-app bash
+composer install
+php artisan key:generate
+php artisan migrate
 
